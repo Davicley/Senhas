@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaini+Purva&display=swap');
+
+:root{
+    --cor-da-letra: rgb(0, 0, 0);
+    --cor-de-fundo: rgb(255, 255, 255);
+    --fundo-senha: #29188a;
+    --fundo-texto: rgb(255, 255, 255);
+    --borda: rgb(20, 4, 92);    
+}
+
+body{
+    color: var(--cor-da-letra);
+    background-color: var(--cor-de-fundo);
+    font-family: "Jaini Purva", system-ui;
+    font-size: 25px;
+}
