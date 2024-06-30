@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaini+Purva&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+:root{
+    --cor-da-letra: rgb(0, 0, 0);
+    --cor-de-fundo: rgb(255, 255, 255);
+    --fundo-senha: hwb(213 3% 60%);
+    --fundo-texto: rgb(255, 255, 255);
+    --borda: hwb(0 0% 100%);
+    --fonte: "Jaini Purva", system-ui;
+    --fonte-2: "Black Han Sans", sans-serif;
+}
+
+body{
+    color: var(--cor-da-letra);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
+    font-size: 28px;    
+    line-height: 25px;
+}
+
+.Titulo-Principal{
+    text-align:center;
+    font-size: 46px;
+    font-family: var(--fonte-2);
+
+}
+
+.Conteudo{
+    text-align: center;
+    font-size: 25px;
+}
+
+.Conteudo-Titulo{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Conteudo-Senha{
+    font-size: 37px;
+    margin-top: 20px;
+    background: var(--fundo-senha);
+    padding: 40px;
+    border-bottom: 10px solid var(--borda);
+    border-top: 10px solid var(--borda);
+    border-left: 10px solid var(--borda);
+    border-right: 10px solid var(--borda);
+}
+
+#Campo-Senha{
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--cor-da-letra);
+    font-size: 20px;
+    font-size: 38px;
+}
+
+    
+#Campo-senha:focus{
+        outline:none;
+        background-color: var(--fundo-campo);
+    }
+    
+    .parametro{
+        font-family: var(--fonte2);
+        font-size: 15px;
+    }
