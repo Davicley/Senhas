@@ -30,5 +30,8 @@ function aumentarTamanho(){
         senha = senha + letrasMaiusculas [numeroAleatorio];
 
 } 
+        
+let senha = " ";
+        
     campoSenha.value = senha;               
 }
